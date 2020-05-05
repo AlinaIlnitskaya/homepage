@@ -4,17 +4,25 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg" sizes="16x16" href="img/avatar.svg">
      <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+     <style>
+		.avatar:hover{filter: hue-rotate(360deg);transition: all 1s ease; }
+		.avatar{width:100%;}
+		.name{text-shadow: 3px 3px 2px rgb(220,138,62,0.5);}
+		a{color:#dc3e3e;}
+		a:visited{color:#8a2a2a;}
+		.icon{height:13px;width:13px;}
+	</style>
     <title>Resume</title>
   </head>
   <body>
-    <main>
+	 <main>
 	  <article>
 	    <div class="page" style="border-color:#dc8a3e;">
 	      <div class="stackable grid">
 			  <div class="row">
 			    <div class="three wide center aligned column">
-			      <div class="avatar-wrapper">
-		<object class="avatar" data="img/avatar.svg" role="img" width="100%"></object>
+			      <div class="avatar-wrapper" >
+		<object class="avatar" data="img/avatar.svg" role="img" ></object>
 				  </div>
 			    </div>
 			    <div class="thirteen wide column">
@@ -24,18 +32,18 @@
 						<div class = "job">Musician</div>
 						<ul class = "contacts">
 							<li>
-								<img src="https://img.icons8.com/windows/32/000000/instagram.png" height="13px" width="13px" />
+								<img class="icon" alt="icon" src="https://img.icons8.com/windows/32/000000/instagram.png" />
 								<a href="https://www.instagram.com/lanadelrey/?hl=ru" rel = "author" class = "instagram">lanadelrey</a>
 							</li>
 
 							<li>
-								<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="13px" width="13px" ><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+								<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  ><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
     
 								<a href="https://ru-ru.facebook.com/lanadelrey/" rel = "author" class = "facebook">Lana Del Rey</a>
 							</li>
 
 							<li>
-								<img src="https://img.icons8.com/windows/32/000000/twitter.png" height="13px" width="13px" />
+								<img class="icon" alt="icon" src="https://img.icons8.com/windows/32/000000/twitter.png"  />
 								<a href="https://twitter.com/lanadelrey" rel = "author" class = "twitter">Lana Del Rey</a>
 							</li>
 
@@ -68,8 +76,8 @@
 						    <li>The name Lana Del Rey was formed from a mixture of Hollywood actress Lana Turner and the popular car Ford Del Rey. Real name is <strong>Elizabeth Grant</strong>.
 						    </li>
 						    <li class="details">
-							  <input type="checkbox" id="other">
-							  <label for="other" class="summary">My awards &#x1f389;</label>
+							  <input type="checkbox" >
+							  <label  class="summary">My awards &#x1f389;</label>
 							  <div>
 							    <ul>
 							      <li>ASCAP Pop Music Awards</li>
@@ -84,8 +92,8 @@
 							  </div>
 						    </li>
 						    <li class="details">
-							  <input type="checkbox" id="other">
-							  <label for="other" class="summary">My best songs&#128640;</label>
+							  <input type="checkbox">
+							  <label  class="summary">My best songs&#128640;</label>
 							  <div>
 							    <ul>
 							      <li>Video Games (2011)</li>
@@ -128,8 +136,8 @@
 			    			<p>I released a cover of "Once Upon a Dream" for the 2014 dark fantasy film <a href = "https://kinokrad.co/255447-malefisentas-2014-smotret.html">Maleficent.</a></p>
 			    			<ul>
 						    <li class="details">
-							  <input type="checkbox" id="other">
-							  <label for="other" class="summary">Album <strong><a href="https://www.youtube.com/watch?v=CvFKU62-FPk&t=228s">Ultraviolence</a> </strong> &#127800;</label>
+							  <input type="checkbox" >
+							  <label  class="summary">Album <strong><a href="https://www.youtube.com/watch?v=CvFKU62-FPk&t=228s">Ultraviolence</a> </strong> &#127800;</label>
 							  <div>
 							    <ul>
 							        <li>Cruel world</li>
@@ -172,8 +180,8 @@
 			    			<p>I made my first 4 albums for me, but this one is for my fans and about where I hope we are all headed.<p>
 			    			<ul>
 						    <li class="details">
-							  <input type="checkbox" id="other">
-							  <label for="other" class="summary">Album <strong><a href="https://www.youtube.com/watch?v=RB3Wjz_VzG4&list=PLY3IFkfqd6NpGxudFc6YMMY480P1CUcxL">Lust for life</a> </strong> 	&#128148;</label>
+							  <input type="checkbox" >
+							  <label  class="summary">Album <strong><a href="https://www.youtube.com/watch?v=RB3Wjz_VzG4&list=PLY3IFkfqd6NpGxudFc6YMMY480P1CUcxL">Lust for life</a> </strong> 	&#128148;</label>
 							  <div>
 							    <ul>
 							        <li>Love</li>
@@ -206,8 +214,8 @@
 			    			<p>I presented filmmaker Guillermo del Toro with his star on the Hollywood Walk of Fame, and subsequently released a cover of "Season of the Witch" for his film, Scary Stories to Tell in the Dark.<p>
 			    			<ul>
 			    			<li class="details">
-							  <input type="checkbox" id="other">
-							  <label for="other" class="summary">Album <strong><a href ="https://www.youtube.com/watch?v=DCYmJDO2_IE&list=OLAK5uy_kq_gJdWJ9LUwgYzXMWeocvSyee4OqsvOQ&index=7">Norman f*****g Rockwell!</a> </strong> &#128526; <sub>Listen! This is really cool ...</sub>  </label>
+							  <input type="checkbox" >
+							  <label  class="summary">Album <strong><a href ="https://www.youtube.com/watch?v=DCYmJDO2_IE&list=OLAK5uy_kq_gJdWJ9LUwgYzXMWeocvSyee4OqsvOQ&index=7">Norman f*****g Rockwell!</a> </strong> &#128526; <sub>Listen! This is really cool ...</sub>  </label>
 							  <div>
 							    <ul>
 							     <li>Norman fucking Rockwell</li>
@@ -264,21 +272,12 @@
 
 			      <section>
 					  <h3>Likes&#x1f603;</h3>
-					  <p class="tags small">I love reality shows. Favorite - Real Housewives</br>
-							To play guitar</br>
-							Sad songs</br>
-							Chocolate and milk
-					</p>
+					  <p class="tags small">I love reality shows. Favorite - Real Housewives<br/>To play guitar<br/>Sad songs<br/>Chocolate and milk</p>
 				 </section>
 
 			      <section>
 					  <h3>Dislikes&#x1f61e;</h3>
-					  <p class="tags small">
-					  	Spend money</br>
-						Lady Gaga&#128530;</br>
-						The scene</br>
-						Sharks
-					  </p>
+					  <p class="tags small">Spend money<br/>The scene <br/>Lady Gaga&#128530;<br/>Sharks</p>
 				  </section>
 
 
@@ -309,21 +308,11 @@
 					  <h3>Wants	&#128591;</h3>
 					  <p class="tags small bulleted"><span class="tag"> I want to win a Grammy and Golden Globe Award</span></p>
 				 </section>
-
-
-
-
 			    </div>
 	  		  </div>
 		    </div>
 	    </div>
 	  </article>
-</main>
-	<style>
-		.avatar:hover{filter: hue-rotate(360deg);transition: all 1s ease; }
-		.name{text-shadow: 3px 3px 2px rgb(220,138,62,0.5);}
-		a{color:#dc3e3e;}
-		a:visited{color:#8a2a2a;}
-	</style>
+	 </main>
   </body>
 </html>
